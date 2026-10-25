@@ -57,3 +57,12 @@ docs/architecture.md         relation entre les technologies
 
 Utiliser uniquement un compte MetaMask de test, sans fonds réels. Le fichier `.env`
 est ignoré par Git afin d'éviter la publication accidentelle des secrets.
+## Déploiement sur Sepolia
+
+- **Contrat :** RegistreEtudiants
+- **Réseau :** Ethereum Sepolia
+- **Chain ID :** 11155111
+- **Adresse du contrat :** `0x0385ACc88B062ADF3040618F1910B14862286e7C`
+- **Explorateur :** [Voir le contrat sur Sepolia Etherscan](https://sepolia.etherscan.io/address/0x0385ACc88B062ADF3040618F1910B14862286e7C)
+- **Preuve de déploiement :** `deployments/sepolia.json`
+- **Déploiement automatisé :** GitHub Actions
